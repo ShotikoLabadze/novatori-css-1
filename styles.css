@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 17px;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+/* main content */
+
+.container {
+  text-align: center;
+}
+
+.about {
+  margin: auto;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.photo {
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.tourContainer {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 60%;
+  background-color: black;
+  padding: 30px;
+}
+
+.tourContainer h2 {
+  color: white;
+}
+
+.tourContainer h6 {
+  color: gray;
+}
+
+.box {
+  display: inline-block;
+  background-color: white;
+  width: 25%;
+  margin: 15px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+}
